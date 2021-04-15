@@ -66,6 +66,7 @@ body {
     background-color: rgb(31, 30, 31);
     position: sticky;
     top: 0;
+    z-index: 10;
 
 }
 
