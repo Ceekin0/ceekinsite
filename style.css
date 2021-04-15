@@ -80,9 +80,24 @@ body {
 }
 
 .header .menu ul li a {
-    color: rgba(255, 255, 255, .8)
+    color: rgba(255, 255, 255, .8);
+    height: 60px;
+    display: flex;
+}
+
+.header .menu ul li a i {
+    margin-right: 15px;
+    align-items: center;
 }
 
 .header .menu ul li a:hover {
     color: #fff;
 }
+
+
+/* BANNER SECTION */
+
+.banner {
+    min-height: 50vh;
+}
+
