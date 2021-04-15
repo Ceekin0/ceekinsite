@@ -179,6 +179,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .1);
+    transition: 200ms all;
+}
+
+.section1 .lang a:hover {
+    transform: scale(1.05);
 }
 
 .section1 .lang a img {
@@ -189,4 +195,20 @@ body {
 .section1 .lang a .title {
     font-size: 18px;
     color: #111;
+}
+
+.section1 .inner {
+    padding-left: 160px;
+}
+
+.section1 .inner h3 {
+    font-size: 36px;
+    color: #111;
+    margin-bottom: 30px;
+}
+
+.section1 .inner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 28px;
 }
