@@ -141,6 +141,7 @@ body {
 
 .banner .container .banner-box .banner-image {
     padding-left: 150px;
+    border-radius: 4px;
 }
 
 .banner .container .banner-box h1 {
