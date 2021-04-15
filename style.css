@@ -273,7 +273,7 @@ body {
 
 .section3 {
     display: flex;
-    align-items: center;
+    padding: 0 30px;
 }
 
 .section3 >div {
@@ -294,4 +294,24 @@ body {
 
 .section3 .image img {
     width: 100%;
+}
+
+/* FOOTER */
+
+.footer {
+    background: linear-gradient(-45deg, #6e6e6e, rgb(43, 43, 43), #1b1b1b, #0f0f0f);
+    background-size: 500% 500%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
