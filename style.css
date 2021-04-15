@@ -292,8 +292,13 @@ body {
     color: #111;
 }
 
+.section3 .image {
+    padding-top: 100px;
+}
+
 .section3 .image img {
     width: 100%;
+    display: block;
 }
 
 /* FOOTER */
