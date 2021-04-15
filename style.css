@@ -158,5 +158,25 @@ body {
 /* SECTION ONE */
 
 .section1 {
+    display: flex;
+}
 
+.section1 .lang {
+    display: flex;
+    width: 392px;
+    min-width: 392px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section1 .lang a {
+    width: 184px;
+    height: 184px;
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
