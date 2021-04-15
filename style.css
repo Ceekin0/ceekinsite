@@ -1,5 +1,3 @@
-@import url("responsive.css");
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -164,7 +162,7 @@ body {
 .section1 {
     display: flex;
     align-items: center;
-    padding: 128px 0;
+    padding: 120px 0 100px;
 }
 
 .section1 .lang {
@@ -217,4 +215,53 @@ body {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 28px;
+}
+
+/* SECTION TWO */
+
+.section2 {
+    background: #fff;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .1);
+    padding: 64px 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+.section2 .icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #f4f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d7dbe7;
+    font-size: 22px;
+    margin-bottom: 32px;
+    
+}
+
+.section2 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 60%;
+}
+
+.section2 .user {
+    display: flex;
+    align-items: center;
+    color: rgba(73, 37, 37, 0.7);
+}
+
+.section2 .user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
 }
