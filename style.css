@@ -84,6 +84,11 @@ body {
     color: rgba(255, 255, 255, .8);
 }
 
+.header .logo img {
+    width: 32;
+    height: 32;
+}
+
 .header .menu ul li a {
     color: rgba(255, 255, 255, .8);
     height: 60px;
@@ -219,5 +224,5 @@ body {
 /* SECTION TWO */
 
 .section2 {
-    
+
 }
