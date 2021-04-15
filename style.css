@@ -99,7 +99,8 @@ body {
 
 .banner {
     min-height: 50vh;
-    background: linear-gradient(-45deg, #ffffff, #181818, #252525, #393a3a);
+    background: linear-gradient(-45deg, #302f2f, rgb(92, 91, 91), #5e5d5d, #838383);
+    background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
 
