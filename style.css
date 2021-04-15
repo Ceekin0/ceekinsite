@@ -294,6 +294,8 @@ body {
 
 .section3 .image {
     padding-top: 100px;
+    width: 48px;
+    height: 48px;
 }
 
 .section3 .image img {
