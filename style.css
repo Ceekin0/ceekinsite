@@ -159,6 +159,8 @@ body {
 
 .section1 {
     display: flex;
+    align-items: center;
+    padding: 128px 0;
 }
 
 .section1 .lang {
