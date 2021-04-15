@@ -57,6 +57,7 @@ body {
 	animation: gradient 15s ease infinite;
     line-height: 1;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 @keyframes gradient {
@@ -72,7 +73,6 @@ body {
 }
 
 .header {
-    height: 60px;
     background-color: purple;
 
 }
@@ -81,4 +81,18 @@ body {
     width: 1300px;
     margin: 0 auto;
 
+}
+
+.header .container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    margin-right: 40px;
+}
+
+.header .menu ul li a {
+    color: rgba(255, 255, 255, .8)
 }
