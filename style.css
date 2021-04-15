@@ -180,3 +180,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.section1 .lang a img {
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.section1 .lang a .title {
+    font-size: 18px;
+    color: #111;
+}
