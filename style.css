@@ -148,15 +148,6 @@ body {
     padding-left: 150px;
 }
 
-.banner .container .banner-box .banner-image a {
-    transition: 200ms transform;
-    display: block;
-}
-
-.banner .container .banner-box .banner-image a:hover {
-    transform: scale(2.1);
-}
-
 .banner .container .banner-box .banner-image a img {
     filter: invert();
 } 
