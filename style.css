@@ -18,5 +18,11 @@ body {
 
 .header {
     background-color: purple;
+
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
     
 }
