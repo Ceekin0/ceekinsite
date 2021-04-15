@@ -64,6 +64,8 @@ body {
 
 .header {
     background-color: rgb(31, 30, 31);
+    position: sticky;
+    top: 0;
 
 }
 
