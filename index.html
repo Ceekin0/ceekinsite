@@ -12,9 +12,6 @@
  </head>
 
 <body>
-  <audio autoplay>
-    <source src="baris-manco-bugun-bayram.mp3" type="audio/mpeg">
-  </audio>
   <header class="header">
     <div class="container">
       <a href="index.html" class="logo">
@@ -115,6 +112,15 @@
       </div>
     </div>
   </footer>
+  <script>
+      audio = new Audio();
+      audio.src = "baris-manco-bugun-bayram.mp3";
+      audio.autoplay = true;
+      audio.loop = true;
+      audio.volume = 0.5 
+      audio.play();
+
+    </script>
 
 </body>
   
